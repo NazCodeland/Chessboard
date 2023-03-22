@@ -2,9 +2,6 @@
 	import '../app.css';
 </script>
 
-<header>Header</header>
-<main>
+<main class="p-4 grid place-items-center h-[100vh]">
 	<slot />
 </main>
-
-<footer>Footer</footer>
