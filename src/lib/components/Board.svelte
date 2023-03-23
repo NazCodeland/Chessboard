@@ -31,7 +31,7 @@
 	</div>
 
 	<!-- board -->
-	<div style="inline-size:{size}; block-size:{size}" class="board">
+	<div class="w-full h-full board">
 		<Square color={'bg-squareLight'} />
 		<Square color={'bg-squareDark'} />
 		<Square color={'bg-squareLight'} />
@@ -148,9 +148,9 @@
 
 	.board {
 		display: grid;
-		grid-area: b;
 		grid-template-columns: repeat(8, 1fr);
 		/* grid-template-rows: repeat(8, 1fr); */
+		grid-area: b;
 	}
 
 	.file-top {
@@ -164,13 +164,12 @@
 		display: grid;
 		grid-area: rl;
 	}
-
 	.rank-right {
 		display: grid;
 		grid-area: rr;
 	}
 
 	.size {
-		font-size: 5cqi;
+		font-size: 5cqw;
 	}
 </style>
