@@ -10,9 +10,9 @@
 		color: white;
 		display: flex;
 		justify-content: center;
-		text-align: center;
+		align-items: center;
 	}
 	span {
-		inline-size: 80px;
+		flex-grow: 1;
 	}
 </style>

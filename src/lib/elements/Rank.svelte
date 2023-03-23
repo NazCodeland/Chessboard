@@ -13,7 +13,7 @@
 		align-items: center;
 	}
 	span {
-		inline-size: 20px;
-		block-size: 80px;
+		flex-grow: 1;
+		font-size: inherit;
 	}
 </style>
