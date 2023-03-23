@@ -8,7 +8,7 @@
 </script>
 
 <div style="inline-size:{size}; block-size:{size}" class="gridLayout place-items-center">
-	<div class="test h-full flex rank-left">
+	<div class="size h-full flex rank-left">
 		<Rank rank={1} />
 		<Rank rank={2} />
 		<Rank rank={3} />
@@ -19,7 +19,7 @@
 		<Rank rank={8} />
 	</div>
 
-	<div class="test flex w-full file-top">
+	<div class="size flex w-full file-top">
 		<File text="a" />
 		<File text="b" />
 		<File text="c" />
@@ -106,7 +106,7 @@
 	</div>
 	<!-- boardEnd -->
 
-	<div class="test w-full flex file-bottom">
+	<div class="size w-full flex file-bottom">
 		<File text="a" />
 		<File text="b" />
 		<File text="c" />
@@ -117,7 +117,7 @@
 		<File text="h" />
 	</div>
 
-	<div class="test h-full flex rank-right">
+	<div class="size h-full flex rank-right">
 		<Rank rank={1} />
 		<Rank rank={2} />
 		<Rank rank={3} />
@@ -170,7 +170,7 @@
 		grid-area: rr;
 	}
 
-	.test {
-		font-size: 2cqi;
+	.size {
+		font-size: 5cqi;
 	}
 </style>

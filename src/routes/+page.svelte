@@ -7,7 +7,9 @@
 <!-- <Board size="800px" /> -->
 <!-- <Board size="10px" />
 <Board size="200px" /> -->
-<Board size="20px" />
+<Board size="10px" />
+<Board size="100px" />
+<Board size="150px" />
 
 <style>
 </style>

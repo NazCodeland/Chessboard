@@ -14,5 +14,6 @@
 	}
 	span {
 		flex-grow: 1;
+		block-size: 6cqw;
 	}
 </style>
