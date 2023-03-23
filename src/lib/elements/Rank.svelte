@@ -5,4 +5,15 @@
 <span>{rank}</span>
 
 <style>
+	span {
+		background-color: #38180b;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	span {
+		inline-size: 20px;
+		block-size: 80px;
+	}
 </style>

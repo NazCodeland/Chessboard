@@ -5,4 +5,14 @@
 <span>{text}</span>
 
 <style>
+	span {
+		background-color: #38180b;
+		color: white;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	span {
+		inline-size: 80px;
+	}
 </style>

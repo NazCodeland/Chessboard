@@ -2,7 +2,7 @@
 	export let color: string;
 </script>
 
-<div class="w-[80px] h-[80px] {color}"><slot /></div>
+<div class="w-full h-full {color}"><slot /></div>
 
 <style>
 </style>
