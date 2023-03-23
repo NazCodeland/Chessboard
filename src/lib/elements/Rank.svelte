@@ -14,6 +14,5 @@
 	}
 	span {
 		flex-grow: 1;
-		font-size: inherit;
 	}
 </style>

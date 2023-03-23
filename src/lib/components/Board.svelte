@@ -7,8 +7,8 @@
 	export let size: unknown;
 </script>
 
-<div class="gridLayout place-items-center">
-	<div class="h-full flex rank-left">
+<div style="inline-size:{size}; block-size:{size}" class="gridLayout place-items-center">
+	<div class="test h-full flex rank-left">
 		<Rank rank={1} />
 		<Rank rank={2} />
 		<Rank rank={3} />
@@ -106,7 +106,7 @@
 	</div>
 	<!-- boardEnd -->
 
-	<div class="w-full flex file-bottom">
+	<div class="test w-full flex file-bottom">
 		<File text="a" />
 		<File text="b" />
 		<File text="c" />
@@ -117,7 +117,7 @@
 		<File text="h" />
 	</div>
 
-	<div class="h-full flex rank-right">
+	<div class="test h-full flex rank-right">
 		<Rank rank={1} />
 		<Rank rank={2} />
 		<Rank rank={3} />
@@ -131,8 +131,7 @@
 
 <style>
 	.gridLayout {
-		container-type: size;
-		font-size: 1cqw;
+		container-type: inline-size;
 		display: grid;
 		grid-template-areas:
 			'.. ft ft ft ft ft ft ft ft ..'
@@ -148,7 +147,6 @@
 	}
 
 	.board {
-		/* container-type: size; */
 		display: grid;
 		grid-area: b;
 		grid-template-columns: repeat(8, 1fr);
@@ -173,6 +171,6 @@
 	}
 
 	.test {
-		font-size: inherit;
+		font-size: 2cqi;
 	}
 </style>
